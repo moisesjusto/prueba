@@ -1,22 +1,41 @@
 {
   "files": {
-    "app.js": "/prueba/static/js/app.1990d567.chunk.js",
-    "app.js.map": "/prueba/static/js/app.1990d567.chunk.js.map",
+    "app.js": "/prueba/static/js/app.40f532df.chunk.js",
+    "app.js.map": "/prueba/static/js/app.40f532df.chunk.js.map",
     "runtime~app.js": "/prueba/static/js/runtime~app.758c13da.js",
     "runtime~app.js.map": "/prueba/static/js/runtime~app.758c13da.js.map",
-    "static/js/2.5eea5f4f.chunk.js": "/prueba/static/js/2.5eea5f4f.chunk.js",
-    "static/js/2.5eea5f4f.chunk.js.map": "/prueba/static/js/2.5eea5f4f.chunk.js.map",
+    "static/js/2.9da6e630.chunk.js": "/prueba/static/js/2.9da6e630.chunk.js",
+    "static/js/2.9da6e630.chunk.js.map": "/prueba/static/js/2.9da6e630.chunk.js.map",
+    "fonts/AntDesign.ttf": "/prueba/./fonts/AntDesign.ttf",
+    "fonts/Entypo.ttf": "/prueba/./fonts/Entypo.ttf",
+    "fonts/Feather.ttf": "/prueba/./fonts/Feather.ttf",
+    "fonts/FontAwesome.ttf": "/prueba/./fonts/FontAwesome.ttf",
+    "fonts/FontAwesome5_Brands.ttf": "/prueba/./fonts/FontAwesome5_Brands.ttf",
+    "fonts/FontAwesome5_Solid.ttf": "/prueba/./fonts/FontAwesome5_Solid.ttf",
+    "fonts/Fontisto.ttf": "/prueba/./fonts/Fontisto.ttf",
+    "fonts/Foundation.ttf": "/prueba/./fonts/Foundation.ttf",
+    "fonts/Ionicons.ttf": "/prueba/./fonts/Ionicons.ttf",
+    "fonts/MaterialCommunityIcons.ttf": "/prueba/./fonts/MaterialCommunityIcons.ttf",
+    "fonts/MaterialIcons.ttf": "/prueba/./fonts/MaterialIcons.ttf",
+    "fonts/SimpleLineIcons.ttf": "/prueba/./fonts/SimpleLineIcons.ttf",
     "favicon-16.png": "/prueba/favicon-16.png",
     "favicon-32.png": "/prueba/favicon-32.png",
     "favicon.ico": "/prueba/favicon.ico",
     "index.html": "/prueba/index.html",
     "manifest.json": "/prueba/manifest.json",
     "serve.json": "/prueba/serve.json",
-    "static/js/2.5eea5f4f.chunk.js.LICENSE.txt": "/prueba/static/js/2.5eea5f4f.chunk.js.LICENSE.txt"
+    "static/js/2.9da6e630.chunk.js.LICENSE.txt": "/prueba/static/js/2.9da6e630.chunk.js.LICENSE.txt",
+    "static/media/bell.png": "/prueba/static/media/bell.cf04af27.png",
+    "static/media/favi.png": "/prueba/static/media/favi.97447757.png",
+    "static/media/heart.png": "/prueba/static/media/heart.23b5c2c0.png",
+    "static/media/logo.png": "/prueba/static/media/logo.6fdc5f9c.png",
+    "static/media/p.png": "/prueba/static/media/p.dc51abe9.png",
+    "static/media/rocket.png": "/prueba/static/media/rocket.d2f3bf41.png",
+    "static/media/star.png": "/prueba/static/media/star.69c71386.png"
   },
   "entrypoints": [
     "static/js/runtime~app.758c13da.js",
-    "static/js/2.5eea5f4f.chunk.js",
-    "static/js/app.1990d567.chunk.js"
+    "static/js/2.9da6e630.chunk.js",
+    "static/js/app.40f532df.chunk.js"
   ]
 }
