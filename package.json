@@ -1,6 +1,6 @@
 {
   "main": "node_modules/expo/AppEntry.js",
-  "homepage": "https://moisesjusto.github.io/prueba/",
+  "homepage": "https://moisesjusto.github.io/prueba",
   "scripts": {
     "predeploy": "expo build:web",
     "deploy": "gh-pages -d web-build",
