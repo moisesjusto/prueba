@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { Component, useCallback } from 'react'
-import { Text, View, Image, FlatList, TouchableOpacity, RefreshControl, ActivityIndicator } from 'react-native'
+import { Text, View, Image, FlatList, TouchableOpacity, RefreshControl, ActivityIndicator, Platform } from 'react-native'
 import { styles } from '../Styles/Styles'
 import Axios from 'axios'
 import { TouchsAlert } from '../controller/Funciones';
@@ -88,7 +88,11 @@ export default class cardStyles extends Component {
             Ef: false
         })
 
-        Alert.alert('Hola','esta compra ha sido guardada en el camion de  pedidos')
+        if (Platform.OS === 'web') {
+            alert('Hola','esta compra ha sido guardada en el camion de  pedidos')
+        }else{
+            Alert.alert('Hola','esta compra ha sido guardada en el camion de  pedidos')
+        }
 
         this.GetData()
         this.props.navigation.navigate('Pedidos')

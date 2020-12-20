@@ -1,8 +1,6 @@
 import { StatusBar } from 'expo-status-bar'
 import React, { Component } from 'react'
-import { Alert } from 'react-native'
-import { TouchableOpacity } from 'react-native'
-import { Text, View } from 'react-native'
+import {Text, View, Alert ,TouchableOpacity, Platform} from 'react-native'
 import { SocialIcon } from 'react-native-elements'
 import { Testo, TouchsIcon, TouchsImg } from '../controller/Funciones'
 import { styles } from '../Styles/Styles'
@@ -11,7 +9,11 @@ export default class Ayuda extends Component {
 
 
     Alertas = (a, e) => {
-        Alert.alert(a, e)
+        if (Platform.OS === 'web') {
+            alert(`${a}, ${e}`)
+        } else{
+            Alert.alert(a, e)
+        }
     }
 
 

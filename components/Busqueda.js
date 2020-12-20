@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { Component } from 'react'
-import { View, TextInput, Alert, } from 'react-native'
+import { View, TextInput, Alert, Platform } from 'react-native'
 import { styles } from '../Styles/Styles'
 import Icon from 'react-native-vector-icons/FontAwesome';
 
@@ -13,7 +13,11 @@ export default class Bus extends Component {
 
     updateSearch = async (search) => {
         this.setState({ search })
-        Alert.alert('Hola', 'Aun no tenemos esta funcion ativa SORRI')
+        if (Platform.OS === 'web') {
+            alert('Hola', 'Aun no tenemos esta funcion ativa SORRI')
+        }else{
+            Alert.alert('Hola', 'Aun no tenemos esta funcion ativa SORRI')
+        }
         
     };
     update = () => {

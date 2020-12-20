@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Text, View, TextInput, Alert } from 'react-native'
+import { Text, View, TextInput, Alert, Platform } from 'react-native'
 import Axios from 'axios';
 import { styles } from '../Styles/Styles';
 import { Button, Card } from "react-native-elements";
@@ -51,7 +51,11 @@ export default class Datos extends Component {
             })
             Alert.alert('atualizado')
         } else{
-            console.log('error');
+            if (Platform.OS ==='web') {
+                alert(`Ubo un error`)
+            }else{
+                Alert.alert('Ubo un error')
+            }
         }
     }
 

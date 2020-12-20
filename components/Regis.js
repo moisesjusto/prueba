@@ -3,6 +3,7 @@ import {
   Alert,
   TextInput,
   View,
+  Platform
 } from 'react-native'
 
 // inport
@@ -32,7 +33,7 @@ export default class Regis extends Component {
 
   //axios
   Onclick = async () => {
-    this.setState({Stads: true})
+    this.setState({ Stads: true })
     this.Botones()
 
     const { provincia, sector, calle, tel } = this.state;
@@ -48,7 +49,11 @@ export default class Regis extends Component {
   }
 
   Alerttas = (e) => {
-    Alert.alert('Alerta', e)
+    if (Platform.OS === 'web') {
+      alert(`${e}`)
+    } else {
+      Alert.alert('Alerta', e)
+    }
   }
   //segundo boton
   Datoss = () => {
@@ -174,15 +179,15 @@ export default class Regis extends Component {
   render() {
     return (
       <Cardd
-      Back={
-        <TouchsIcon
-        size={30}
-        sty={styles.iconoo}
-        size={30}
-        name="arrow-left"
-        onPress={()=> this.props.navigation.goBack()}
-        />
-    }
+        Back={
+          <TouchsIcon
+            size={30}
+            sty={styles.iconoo}
+            size={30}
+            name="arrow-left"
+            onPress={() => this.props.navigation.goBack()}
+          />
+        }
         title='Registrate'
         Cardr={
           <View>
