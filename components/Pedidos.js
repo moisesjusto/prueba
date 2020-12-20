@@ -26,10 +26,7 @@ export default class cardStyles extends Component {
                 Pedidos: res.data
             })
         } else{
-            const Carta =[ 
-                {_id:'no tienes nigun pedido',createdAt: 'haora mismo'}
-            ]
-            this.setState({Pedidos: Carta})
+            
         }
         this.props.navigation.setOptions({tabBarBadge: this.state.Pedidos.length})
 
