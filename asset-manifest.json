@@ -1,11 +1,11 @@
 {
   "files": {
-    "app.js": "/prueba/static/js/app.40f532df.chunk.js",
-    "app.js.map": "/prueba/static/js/app.40f532df.chunk.js.map",
+    "app.js": "/prueba/static/js/app.f67848b6.chunk.js",
+    "app.js.map": "/prueba/static/js/app.f67848b6.chunk.js.map",
     "runtime~app.js": "/prueba/static/js/runtime~app.758c13da.js",
     "runtime~app.js.map": "/prueba/static/js/runtime~app.758c13da.js.map",
-    "static/js/2.9da6e630.chunk.js": "/prueba/static/js/2.9da6e630.chunk.js",
-    "static/js/2.9da6e630.chunk.js.map": "/prueba/static/js/2.9da6e630.chunk.js.map",
+    "static/js/2.f89ed651.chunk.js": "/prueba/static/js/2.f89ed651.chunk.js",
+    "static/js/2.f89ed651.chunk.js.map": "/prueba/static/js/2.f89ed651.chunk.js.map",
     "fonts/AntDesign.ttf": "/prueba/./fonts/AntDesign.ttf",
     "fonts/Entypo.ttf": "/prueba/./fonts/Entypo.ttf",
     "fonts/Feather.ttf": "/prueba/./fonts/Feather.ttf",
@@ -24,7 +24,7 @@
     "index.html": "/prueba/index.html",
     "manifest.json": "/prueba/manifest.json",
     "serve.json": "/prueba/serve.json",
-    "static/js/2.9da6e630.chunk.js.LICENSE.txt": "/prueba/static/js/2.9da6e630.chunk.js.LICENSE.txt",
+    "static/js/2.f89ed651.chunk.js.LICENSE.txt": "/prueba/static/js/2.f89ed651.chunk.js.LICENSE.txt",
     "static/media/bell.png": "/prueba/static/media/bell.cf04af27.png",
     "static/media/favi.png": "/prueba/static/media/favi.97447757.png",
     "static/media/heart.png": "/prueba/static/media/heart.23b5c2c0.png",
@@ -35,7 +35,7 @@
   },
   "entrypoints": [
     "static/js/runtime~app.758c13da.js",
-    "static/js/2.9da6e630.chunk.js",
-    "static/js/app.40f532df.chunk.js"
+    "static/js/2.f89ed651.chunk.js",
+    "static/js/app.f67848b6.chunk.js"
   ]
 }
